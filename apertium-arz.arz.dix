@@ -7,6 +7,7 @@
   <sdefs>
     <sdef n="n"           c="Noun"/>
     <sdef n="pr"          c="Preposition"/>
+    <!--  ملاحظة إعتراضية -->
     <sdef n="ij"          c="Interjection"/>
     <sdef n="abbr"        c="Abbreviation"/>
     <sdef n="rel"         c="Relative"/>
@@ -84,7 +85,7 @@
     <sdef n="px3sg_f"     c="Noun"/>
     <sdef n="px3pl_m"     c="Noun"/>
     <sdef n="px3pl_f"     c="Noun"/>
-    <sdef n="px3du"       c="Noun"/>     
+    <sdef n="px3du"       c="Noun"/>
 
     <sdef n="subj"        c="Subject"/>
     <sdef n="obj"         c="Object"/>
@@ -112,12 +113,46 @@
       <e><re>[٠-٩]+([.][٠-٩]+)?</re><p><l></l><r><s n="num"/></r></p></e>
       <e><re>[٠-٩]+([.][٠-٩]+)? ?%</re><p><l></l><r><s n="num"/></r></p></e>
     </pardef>
+
+    <pardef n="n_enclitics">
+      <e><p><l>ه</l><r><s n="px3sg_m"/></r></p></e>
+      <e><p><l>ها</l><r><s n="px3sg_f"/></r></p></e>
+      <e><p><l>ك</l><r><s n="px2sg_m"/></r></p></e>
+      <e><p><l>ك</l><r><s n="px2sg_f"/></r></p></e>
+      <e><p><l>ي</l><r><s n="px1sg"/></r></p></e>
+      <e><p><l>هم</l><r><s n="px3du"/></r></p></e>
+      <e><p><l>كم</l><r><s n="px2du"/></r></p></e>
+      <e><p><l>هم</l><r><s n="px3pl_m"/></r></p></e>
+      <e><p><l>كم</l><r><s n="px2pl_m"/></r></p></e>
+      <e><p><l>كم</l><r><s n="px2pl_f"/></r></p></e>
+      <e><p><l>نا</l><r><s n="px1pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="عمرو">
+      <e><p><l/><r><s n="nom"/></r></p></e>
+      <e><p><l/><r><s n="gen"/></r></p></e>
+      <e><p><l/><r><s n="acc"/></r></p></e>
+      <!-- TODO: Do we need this? -->
+      <e><p><l/><r><s n="nom"/><s n="cstr"/></r></p></e>
+      <e><p><l/><r><s n="gen"/><s n="cstr"/></r></p></e>
+      <e><p><l/><r><s n="acc"/><s n="cstr"/></r></p></e>
+      <e><p><l/><r><s n="nom"/></r></p><par n="n_enclitics"/></e>
+      <e><p><l/><r><s n="gen"/></r></p><par n="n_enclitics"/></e>
+      <e><p><l/><r><s n="acc"/></r></p><par n="n_enclitics"/></e>
+    </pardef>
+
+    <pardef n="يا">
+        <e><p><l/><r><s n="ij"/></r></p></e>
+    </pardef>
   </pardefs>
 
 
   <section id="main" type="standard">
-    <!-- Define entries within <e> here. -->
-    <e lm="house"><i>house</i><par n="house__n"/></e>
+    <!-- Male proper nouns -->
+    <e lm="سامي"><i>سامي</i><par n="عمرو"/></e>
+    <e lm="عمرو"><i>عمرو</i><par n="عمرو"/></e>
+
+    <e lm="يا"><i>يا</i><par n="يا"/></e>
   </section>
   
   <!-- Inconditionals -->
