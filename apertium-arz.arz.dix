@@ -128,7 +128,12 @@
       <e><p><l>نا</l><r><s n="px1pl"/></r></p></e>
     </pardef>
 
-    <pardef n="عمرو">
+    <pardef n="n_proclitics">
+      <e><p><l>ال</l><r>ال<s n="def"/><s n="det"/>+</r></p></e>
+      <e><p><l></l><r></r></p></e>
+    </pardef>
+
+    <pardef n="np_cases">
       <e><p><l/><r><s n="nom"/></r></p></e>
       <e><p><l/><r><s n="gen"/></r></p></e>
       <e><p><l/><r><s n="acc"/></r></p></e>
@@ -141,7 +146,7 @@
       <e><p><l/><r><s n="acc"/></r></p><par n="n_enclitics"/></e>
     </pardef>
 
-    <pardef n="يا">
+    <pardef n="interjections">
         <e><p><l/><r><s n="ij"/></r></p></e>
     </pardef>
   </pardefs>
@@ -149,10 +154,11 @@
 
   <section id="main" type="standard">
     <!-- Male proper nouns -->
-    <e lm="سامي"><i>سامي</i><par n="عمرو"/></e>
-    <e lm="عمرو"><i>عمرو</i><par n="عمرو"/></e>
+    <e lm="سامي"><i>سامي</i><par n="np_cases"/></e>
+    <e lm="عمرو"><i>عمرو</i><par n="np_cases"/></e>
 
-    <e lm="يا"><i>يا</i><par n="يا"/></e>
+    <e lm="يا"><i>يا</i><par n="interjections"/></e>
+    <e lm="هاه"><i>هاه</i><par n="interjections"/></e>
   </section>
   
   <!-- Inconditionals -->
