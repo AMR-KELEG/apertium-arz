@@ -147,7 +147,11 @@
     </pardef>
 
     <pardef n="interjections">
-        <e><p><l/><r><s n="ij"/></r></p></e>
+      <e><p><l/><r><s n="ij"/></r></p></e>
+    </pardef>
+
+    <pardef n="interrogatives">
+      <e><p><l/><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
   </pardefs>
 
@@ -159,6 +163,12 @@
 
     <e lm="يا"><i>يا</i><par n="interjections"/></e>
     <e lm="هاه"><i>هاه</i><par n="interjections"/></e>
+    <e lm="ايه"><i>ايه</i><par n="interrogatives"/></e>
+    <e lm="مين"><i>مين</i><par n="interrogatives"/></e>
+    <e lm="فين"><i>فين</i><par n="interrogatives"/></e>
+    <e lm="ليه"><i>ليه</i><par n="interrogatives"/></e>
+    <e lm="ازاي"><i>ازاي</i><par n="interrogatives"/></e>
+    <e lm="ازي"><i>ازي</i><par n="interrogatives"/></e>
   </section>
   
   <!-- Inconditionals -->
