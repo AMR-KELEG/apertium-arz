@@ -133,6 +133,10 @@
       <e><p><l></l><r></r></p></e>
     </pardef>
 
+    <pardef n="و__cnjcoo">
+      <e><p><l/><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
     <pardef n="np_cases">
       <e><p><l/><r><s n="nom"/></r></p></e>
       <e><p><l/><r><s n="gen"/></r></p></e>
@@ -171,6 +175,13 @@
     <e lm="ازي"><i>ازي</i><par n="interrogatives"/></e>
   </section>
   
+  <!-- Post-blank words -->
+  <!-- TODO: How does it work? -->
+  <section id="stuff" type="postblank">
+    <e lm="و" r="LR"><p><l>و</l><r>و</r></p><par n="و__cnjcoo"/></e>
+    <e lm="ف" r="LR"><p><l>ف</l><r>ف</r></p><par n="و__cnjcoo"/></e>
+  </section>
+
   <!-- Inconditionals -->
   <section id="final" type="inconditional">
     <e><par n="numeros_arabigos"/></e>
