@@ -157,13 +157,32 @@
     <pardef n="interrogatives">
       <e><p><l/><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
+
+    <pardef n="prsubj__prn">
+      <e><p><l>أنا</l><r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>احنا</l><r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>أنت</l><r>prpers<s n="prn"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>أنت</l><r>prpers<s n="prn"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>أنتي</l><r>prpers<s n="prn"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>أنتم</l><r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>أنتوا</l><r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>هو</l><r>prpers<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>هي</l><r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>هم</l><r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
   </pardefs>
 
 
+  <!-- The lemma on it's own doesn't bear any meaning -->
+  <!-- Part of the input is consumed in the <i></i> section -->
+  <!-- and the rest is consumed in the <l></l> part of the paradigm -->
   <section id="main" type="standard">
     <!-- Male proper nouns -->
     <e lm="سامي"><i>سامي</i><par n="np_cases"/></e>
     <e lm="عمرو"><i>عمرو</i><par n="np_cases"/></e>
+
+    <!-- Pronouns -->
+    <e lm="ضمير_متكلم"><i/><par n="prsubj__prn"/></e>
 
     <e lm="يا"><i>يا</i><par n="interjections"/></e>
     <e lm="هاه"><i>هاه</i><par n="interjections"/></e>
@@ -177,6 +196,7 @@
   
   <!-- Post-blank words -->
   <!-- TODO: How does it work? -->
+  <!-- Same as inconditional but inserts a blank after the token -->
   <section id="stuff" type="postblank">
     <e lm="و" r="LR"><p><l>و</l><r>و</r></p><par n="و__cnjcoo"/></e>
     <e lm="ف" r="LR"><p><l>ف</l><r>ف</r></p><par n="و__cnjcoo"/></e>
@@ -186,7 +206,7 @@
   <section id="final" type="inconditional">
     <e><par n="numeros_arabigos"/></e>
     <e><re>[.\?;:!…¿¶]</re><p><l></l><r><s n="sent"/></r></p></e>
-    <e><re>,</re>          <p><l></l><r><s n="cm"/></r></p></e>
+    <e><re>[،,]</re><p><l></l><r><s n="cm"/></r></p></e>
   </section>
 
 </dictionary>
