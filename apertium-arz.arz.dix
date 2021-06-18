@@ -150,6 +150,12 @@
       <e><p><l/><r><s n="acc"/></r></p><par n="n_enclitics"/></e>
     </pardef>
 
+    <pardef n="prn_cases">
+      <e><p><l/><r><s n="nom"/></r></p></e>
+      <e><p><l/><r><s n="gen"/></r></p></e>
+      <e><p><l/><r><s n="acc"/></r></p></e>
+    </pardef>
+
     <pardef n="interjections">
       <e><p><l/><r><s n="ij"/></r></p></e>
     </pardef>
@@ -170,6 +176,13 @@
       <e><p><l>هي</l><r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>هم</l><r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="prdef__prn">
+      <e><p><l>ده</l><r>prdef<s n="prn"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ديه</l><r>prdef<s n="prn"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>دي</l><r>prdef<s n="prn"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>دول</l><r>prdef<s n="prn"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
   </pardefs>
 
 
@@ -182,7 +195,10 @@
     <e lm="عمرو"><i>عمرو</i><par n="np_cases"/></e>
 
     <!-- Pronouns -->
-    <e lm="ضمير_متكلم"><i/><par n="prsubj__prn"/></e>
+    <e lm="ضمير_متكلم_غائب"><i/><par n="prsubj__prn"/></e>
+    <!-- Do we need cases here?! -->
+    <!-- <par n="prn_cases"/> -->
+    <e lm="اسم_اشارة"><i/><par n="prdef__prn"/></e>
 
     <e lm="يا"><i>يا</i><par n="interjections"/></e>
     <e lm="هاه"><i>هاه</i><par n="interjections"/></e>
