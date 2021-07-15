@@ -114,6 +114,11 @@
       <e><re>[٠-٩]+([.][٠-٩]+)? ?%</re><p><l></l><r><s n="num"/></r></p></e>
     </pardef>
 
+    <!-- These paradigms aren't generic -->
+    <pardef n="اللي__prn">
+      <e><p><l>اللي</l><r>اللي<s n="rel"/><s n="mf"/><s n="an"/><s n="sp"/></r></p></e>
+    </pardef>
+
     <pardef n="n_enclitics">
       <e><p><l>ه</l><r><s n="px3sg_m"/></r></p></e>
       <e><p><l>ها</l><r><s n="px3sg_f"/></r></p></e>
@@ -200,6 +205,7 @@
     <!-- <par n="prn_cases"/> -->
     <e lm="اسم_اشارة"><i/><par n="prdef__prn"/></e>
 
+    <e lm="اللي"><i></i><par n="اللي__prn"/></e>
     <e lm="يا"><i>يا</i><par n="interjections"/></e>
     <e lm="هاه"><i>هاه</i><par n="interjections"/></e>
     <e lm="ايه"><i>ايه</i><par n="interrogatives"/></e>
