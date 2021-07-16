@@ -188,6 +188,50 @@
       <e><p><l>دي</l><r>prdef<s n="prn"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>دول</l><r>prdef<s n="prn"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="prnum__prn">
+      <!-- خمسة وعشرين ولد - خمسة وعشرين بنت - خمس بنات - خمس ولاد -->
+      <e><p><l>واحد</l><r>واحدة<s n="pr"/><s n="num"/><s n="m"/></r></p></e>
+      <e><p><l>واحدة</l><r>واحدة<s n="pr"/><s n="num"/><s n="f"/></r></p></e>
+      <e><p><l>اتنين</l><r>اتنين<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>تلت</l><r>تلاتة<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>تلاتة</l><r>تلاتة<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>اربع</l><r>اربعة<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>اربع</l><r>اربعة<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>خمس</l><r>خمسة<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>خمسة</l><r>خمسة<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>ست</l><r>ستة<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>ستة</l><r>ستة<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>سبع</l><r>سبعة<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>سبعة</l><r>سبعة<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>تمن</l><r>تمانية<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>تمانية</l><r>تمانية<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>تسع</l><r>تسعة<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>تسعة</l><r>تسعة<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>عشر</l><r>عشرة<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>عشرة</l><r>عشرة<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>حداشر</l><r>حداشر<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>اتناشر</l><r>اتناشر<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>تلتاشر</l><r>تلتاشر<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>اربعتاشر</l><r>اربعتاشر<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>خمستاشر</l><r>خمستاشر<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>ستاشر</l><r>ستاشر<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>سبعتاشر</l><r>سبعتاشر<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>تمنتاشر</l><r>تمنتاشر<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>تسعتاشر</l><r>تسعتاشر<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>عشرين</l><r>عشرين<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>تلاتين</l><r>تلاتين<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>اربعين</l><r>اربعين<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>خمسين</l><r>خمسين<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>ستين</l><r>ستين<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>سبعين</l><r>سبعين<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>تمانين</l><r>تمانين<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>تسعين</l><r>تسعين<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>مية</l><r>مية<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>الف</l><r>الف<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>عشرتلاف</l><r>عشرتلاف<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+      <e><p><l>مليون</l><r>مليون<s n="pr"/><s n="num"/><s n="mf"/></r></p></e>
+    </pardef>
   </pardefs>
 
 
@@ -204,10 +248,13 @@
     <!-- Do we need cases here?! -->
     <!-- <par n="prn_cases"/> -->
     <e lm="اسم_اشارة"><i/><par n="prdef__prn"/></e>
+    <e lm="أرقام"><i/><par n="prnum__prn"/></e>
 
     <e lm="اللي"><i></i><par n="اللي__prn"/></e>
+
     <e lm="يا"><i>يا</i><par n="interjections"/></e>
     <e lm="هاه"><i>هاه</i><par n="interjections"/></e>
+
     <e lm="ايه"><i>ايه</i><par n="interrogatives"/></e>
     <e lm="مين"><i>مين</i><par n="interrogatives"/></e>
     <e lm="فين"><i>فين</i><par n="interrogatives"/></e>
