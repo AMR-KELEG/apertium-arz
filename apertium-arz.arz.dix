@@ -142,6 +142,14 @@
       <e><p><l/><r><s n="cnjcoo"/></r></p></e>
     </pardef>
 
+    <pardef n="noun_m_sg">
+      <e><p><l></l><r><s n="n"/><s n="sg"/><s n="m"/></r></p></e>
+    </pardef>
+
+    <pardef n="noun_f_sg">
+      <e><p><l></l><r><s n="n"/><s n="sg"/><s n="f"/></r></p></e>
+    </pardef>
+
     <pardef n="np_cases">
       <e><p><l/><r><s n="nom"/></r></p></e>
       <e><p><l/><r><s n="gen"/></r></p></e>
@@ -252,15 +260,48 @@
 
     <e lm="اللي"><i></i><par n="اللي__prn"/></e>
 
-    <e lm="يا"><i>يا</i><par n="interjections"/></e>
-    <e lm="هاه"><i>هاه</i><par n="interjections"/></e>
-
+    <!-- Interrogatives-->
     <e lm="ايه"><i>ايه</i><par n="interrogatives"/></e>
     <e lm="مين"><i>مين</i><par n="interrogatives"/></e>
     <e lm="فين"><i>فين</i><par n="interrogatives"/></e>
     <e lm="ليه"><i>ليه</i><par n="interrogatives"/></e>
     <e lm="ازاي"><i>ازاي</i><par n="interrogatives"/></e>
     <e lm="ازي"><i>ازي</i><par n="interrogatives"/></e>
+
+    <!-- Nouns -->
+    <!-- TODO: Do we need to use the animate feature? -->
+    <!-- TODO: Do we need to handle the inflections of each noun? and how? -->
+    <e lm="بيت"><i>بيت</i><par n="noun_m_sg"/></e>
+    <e lm="كلام"><i>كلام</i><par n="noun_m_sg"/></e>
+    <e lm="موضوع"><i>موضوع</i><par n="noun_m_sg"/></e>
+    <e lm="راجل"><i>راجل</i><par n="noun_m_sg"/></e>
+    <e lm="دكتور"><i>دكتور</i><par n="noun_m_sg"/></e>
+    <e lm="اخ"><i>اخ</i><par n="noun_m_sg"/></e>
+    <e lm="اب"><i>اب</i><par n="noun_m_sg"/></e>
+    <e lm="واد"><i>واد</i><par n="noun_m_sg"/></e>
+    <e lm="عبد"><i>عبد</i><par n="noun_m_sg"/></e>
+    <e lm="صباح"><i>صباح</i><par n="noun_m_sg"/></e>
+    <e lm="مساء"><i>مساء</i><par n="noun_m_sg"/></e>
+    <e lm="خير"><i>خير</i><par n="noun_m_sg"/></e>
+    <e lm="نبي"><i>نبي</i><par n="noun_m_sg"/></e>
+    <e lm="حاج"><i>حاج</i><par n="noun_m_sg"/></e>
+
+    <e lm="فكرة"><i>فكرة</i><par n="noun_f_sg"/></e>
+    <e lm="دنيا"><i>دنيا</i><par n="noun_f_sg"/></e>
+    <e lm="ست"><i>ست</i><par n="noun_f_sg"/></e>
+    <e lm="بنت"><i>بنت</i><par n="noun_f_sg"/></e>
+    <e lm="بت"><i>بت</i><par n="noun_f_sg"/></e>
+    <e lm="ساعة"><i>ساعة</i><par n="noun_f_sg"/></e>
+    <e lm="سنة"><i>سنة</i><par n="noun_f_sg"/></e>
+    <e lm="جماعة"><i>جماعة</i><par n="noun_f_sg"/></e>
+    <e lm="عربية"><i>عربية</i><par n="noun_f_sg"/></e>
+    <e lm="ام"><i>ام</i><par n="noun_f_sg"/></e>
+    <e lm="سلامة"><i>سلامة</i><par n="noun_f_sg"/></e>
+
+    <!-- Interjections -->
+    <e lm="يا"><i>يا</i><par n="interjections"/></e>
+    <e lm="هاه"><i>هاه</i><par n="interjections"/></e>
+
   </section>
   
   <!-- Post-blank words -->
