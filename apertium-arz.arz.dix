@@ -25,9 +25,6 @@
     <sdef n="m"           c="Masculine"/>
     <sdef n="f"           c="Feminine"/>
     <sdef n="mf"          c="Masculine / feminine"/>
-    <sdef n="genacc"      c="Genitive / Accusative"/>
-    <sdef n="GD"          c="Gender to be determined"/>
-
 
     <sdef n="nom"         c="Nominative"/>
     <sdef n="gen"         c="Genitive"/>
