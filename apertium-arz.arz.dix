@@ -110,6 +110,12 @@
       <e><re>[٠-٩]+([.][٠-٩]+)?</re><p><l></l><r><s n="num"/></r></p></e>
       <e><re>[٠-٩]+([.][٠-٩]+)? ?%</re><p><l></l><r><s n="num"/></r></p></e>
     </pardef>
+
+    <pardef n="n__محط/ة">
+      <e><p><l>ة</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>تين</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>ات</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
   </pardefs>
 
 
@@ -117,7 +123,7 @@
   <!-- Part of the input is consumed in the <i></i> section -->
   <!-- and the rest is consumed in the <l></l> part of the paradigm -->
   <section id="main" type="standard">
-
+    <e lm="محطة" c="station"><i>محط</i><par n="n__محط/ة"/></e>
   </section>
 
   <!-- Inconditionals -->
