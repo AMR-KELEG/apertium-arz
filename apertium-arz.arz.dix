@@ -121,11 +121,11 @@
     <pardef n="n__رقم">
       <e><p><l>رقم</l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
       <e><p><l>رقمين</l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p></e>
-      <e><p><l>أرقام</l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
+      <e><p><l>ارقام</l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="n__صبح">
-      <e><p><l>صبح</l><r>صبح<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+    <pardef n="n__صباح">
+      <e><p><l>صباح</l><r>صباح<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
     </pardef>
   </pardefs>
 
@@ -138,7 +138,7 @@
     <e lm="ساعة" c="hour"><i>ساع</i><par n="n__محط/ة"/></e>
 
     <e lm="رقم" c="noun"><par n="n__رقم"/></e>
-    <e lm="صبح" c="morning"><par n="n__صبح"/></e>
+    <e lm="صباح" c="morning"><par n="n__صباح"/></e>
 
   </section>
 
