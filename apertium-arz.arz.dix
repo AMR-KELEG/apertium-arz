@@ -127,6 +127,12 @@
     <pardef n="n__صباح">
       <e><p><l>صباح</l><r>صباح<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
     </pardef>
+
+    <pardef n="n__اوض/ة">
+      <e><p><l>ة</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>تين</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l></l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
   </pardefs>
 
 
@@ -136,6 +142,7 @@
   <section id="main" type="standard">
     <e lm="محطة" c="station"><i>محط</i><par n="n__محط/ة"/></e>
     <e lm="ساعة" c="hour"><i>ساع</i><par n="n__محط/ة"/></e>
+    <e lm="اوضة" c="room"><i>اوض</i><par n="n__اوض/ة"/></e>
 
     <e lm="رقم" c="noun"><par n="n__رقم"/></e>
     <e lm="صباح" c="morning"><par n="n__صباح"/></e>
