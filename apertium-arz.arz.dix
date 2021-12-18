@@ -128,9 +128,21 @@
     </pardef>
 
     <pardef n="n__تذ/كرة">
-      <e><p><l>ة</l><r>كرة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
-      <e><p><l>تين</l><r>كرة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>كرة</l><r>كرة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>كرتين</l><r>كرة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p></e>
       <e><p><l>اكر</l><r>كرة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="n__سن/ة">
+      <e><p><l>ة</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>تين</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>ين</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="n__/كريم">
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>ين</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>ات</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="n__فن/دق">
@@ -139,12 +151,29 @@
       <e><p><l>ادق</l><r>دق<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="n__/اسم">
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>ين</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>اء</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
 
     <!--Can't use paradigms for templatic morphology-->
     <pardef n="n__رقم">
       <e><p><l>رقم</l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
       <e><p><l>رقمين</l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p></e>
       <e><p><l>ارقام</l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="n__شكل">
+      <e><p><l>شكل</l><r>شكل<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>شكلين</l><r>شكل<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>اشكال</l><r>شكل<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="n__نوع">
+      <e><p><l>نوع</l><r>نوع<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>نوعين</l><r>نوع<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>انواع</l><r>نوع<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="n__يوم">
@@ -159,10 +188,28 @@
       <e><p><l>اماكن</l><r>مكان<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="n__فيلم">
+      <e><p><l>فيلم</l><r>فيلم<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>فيلمين</l><r>فيلم<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>افلام</l><r>فيلم<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="n__دق/يقة">
       <e><p><l>يقة</l><r>يقة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
       <e><p><l>يقتين</l><r>يقة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p></e>
       <e><p><l>ايق</l><r>يقة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="n__خر/يطة">
+      <e><p><l>يطة</l><r>يطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>يطتين</l><r>يطة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>ايط</l><r>يطة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="n__مك/تب">
+      <e><p><l>تب</l><r>تب<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>تبين</l><r>تب<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>اتب</l><r>تب<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="n__حج/ز">
@@ -188,20 +235,33 @@
     <e lm="ساعة" c="hour"><i>ساع</i><par n="n__محط/ة"/></e>
     <e lm="حاجة" c="thing"><i>حاج</i><par n="n__محط/ة"/></e>
     <e lm="رحلة" c="trip"><i>رحل</i><par n="n__محط/ة"/></e>
+    <e lm="مكالمة" c="call"><i>مكالم</i><par n="n__محط/ة"/></e>
+    <e lm="بطاقة" c="id card"><i>بطاق</i><par n="n__محط/ة"/></e>
 
+    <e lm="كريم" c="cream"><i>كريم</i><par n="n__/كريم"/></e>
+    <e lm="اوتوبيس" c="bus"><i>اوتوبيس</i><par n="n__/كريم"/></e>
+    <e lm="مقاس" c="size"><i>مقاس</i><par n="n__/كريم"/></e>
+
+    <e lm="اسم" c="name"><i>اسم</i><par n="n__/اسم"/></e>
     <e lm="اوضة" c="room"><i>اوض</i><par n="n__اوض/ة"/></e>
-    <e lm="شنطة" c="room"><i>شنط</i><par n="n__اوض/ة"/></e>
+    <e lm="شنطة" c="purse"><i>شنط</i><par n="n__اوض/ة"/></e>
+    <e lm="سنة" c="year"><i>سن</i><par n="n__سن/ة"/></e>
 
-    <e lm="دقيقة" c="reservation"><par n="n__دق/يقة"/></e>
+    <e lm="دقيقة" c="minute"><i>دق</i><par n="n__دق/يقة"/></e>
+    <e lm="خريطة" c="map"><i>خر</i><par n="n__خر/يطة"/></e>
     <e lm="فندق" c="hotel"><i>فن</i><par n="n__فن/دق"/></e>
+    <e lm="مكتب" c="desk"><i>مك</i><par n="n__مك/تب"/></e>
     <e lm="قطر" c="train"><i>قط</i><par n="n__قط/ر"/></e>
     <e lm="تذكرة" c="ticket"><i>تذ</i><par n="n__تذ/كرة"/></e>
 
-    <e lm="حجز" c="reservation"><par n="n__حج/ز"/></e>
+    <e lm="حجز" c="reservation"><i>حج</i><par n="n__حج/ز"/></e>
 
-    <e lm="يوم" c="noun"><par n="n__يوم"/></e>
+    <e lm="يوم" c="day"><par n="n__يوم"/></e>
     <e lm="رقم" c="number"><par n="n__رقم"/></e>
+    <e lm="شكل" c="shape"><par n="n__شكل"/></e>
+    <e lm="نوع" c="type"><par n="n__نوع"/></e>
     <e lm="مكان" c="place"><par n="n__مكان"/></e>
+    <e lm="فيلم" c="film"><par n="n__فيلم"/></e>
     <e lm="صباح" c="morning"><par n="n__صباح"/></e>
   </section>
 
