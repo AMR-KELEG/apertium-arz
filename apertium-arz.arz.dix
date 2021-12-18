@@ -111,11 +111,34 @@
       <e><re>[٠-٩]+([.][٠-٩]+)? ?%</re><p><l></l><r><s n="num"/></r></p></e>
     </pardef>
 
+    <pardef n="n__صباح">
+      <e><p><l>صباح</l><r>صباح<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <pardef n="n__محط/ة">
       <e><p><l>ة</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
       <e><p><l>تين</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p></e>
       <e><p><l>ات</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="n__اوض/ة">
+      <e><p><l>ة</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>تين</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l></l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="n__تذ/كرة">
+      <e><p><l>ة</l><r>كرة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>تين</l><r>كرة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>اكر</l><r>كرة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="n__فن/دق">
+      <e><p><l>دق</l><r>دق<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>دقين</l><r>دق<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>ادق</l><r>دق<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
 
     <!--Can't use paradigms for templatic morphology-->
     <pardef n="n__رقم">
@@ -124,15 +147,36 @@
       <e><p><l>ارقام</l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="n__صباح">
-      <e><p><l>صباح</l><r>صباح<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+    <pardef n="n__يوم">
+      <e><p><l>يوم</l><r>يوم<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>يومين</l><r>يوم<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>ايام</l><r>يوم<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="n__اوض/ة">
-      <e><p><l>ة</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
-      <e><p><l>تين</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p></e>
-      <e><p><l></l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
+    <pardef n="n__مكان">
+      <e><p><l>مكان</l><r>مكان<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>مكانين</l><r>مكان<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>اماكن</l><r>مكان<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="n__دق/يقة">
+      <e><p><l>يقة</l><r>يقة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>يقتين</l><r>يقة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>ايق</l><r>يقة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="n__حج/ز">
+      <e><p><l>ز</l><r>ز<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>زين</l><r>ز<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>وزات</l><r>ز<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="n__قط/ر">
+      <e><p><l>ر</l><r>ر<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>رين</l><r>ر<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>ورات</l><r>ر<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
   </pardefs>
 
 
@@ -142,11 +186,23 @@
   <section id="main" type="standard">
     <e lm="محطة" c="station"><i>محط</i><par n="n__محط/ة"/></e>
     <e lm="ساعة" c="hour"><i>ساع</i><par n="n__محط/ة"/></e>
+    <e lm="حاجة" c="thing"><i>حاج</i><par n="n__محط/ة"/></e>
+    <e lm="رحلة" c="trip"><i>رحل</i><par n="n__محط/ة"/></e>
+
     <e lm="اوضة" c="room"><i>اوض</i><par n="n__اوض/ة"/></e>
+    <e lm="شنطة" c="room"><i>شنط</i><par n="n__اوض/ة"/></e>
 
-    <e lm="رقم" c="noun"><par n="n__رقم"/></e>
+    <e lm="دقيقة" c="reservation"><par n="n__دق/يقة"/></e>
+    <e lm="فندق" c="hotel"><i>فن</i><par n="n__فن/دق"/></e>
+    <e lm="قطر" c="train"><i>قط</i><par n="n__قط/ر"/></e>
+    <e lm="تذكرة" c="ticket"><i>تذ</i><par n="n__تذ/كرة"/></e>
+
+    <e lm="حجز" c="reservation"><par n="n__حج/ز"/></e>
+
+    <e lm="يوم" c="noun"><par n="n__يوم"/></e>
+    <e lm="رقم" c="number"><par n="n__رقم"/></e>
+    <e lm="مكان" c="place"><par n="n__مكان"/></e>
     <e lm="صباح" c="morning"><par n="n__صباح"/></e>
-
   </section>
 
   <!-- Inconditionals -->
