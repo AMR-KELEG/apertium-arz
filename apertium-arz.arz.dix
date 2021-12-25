@@ -224,6 +224,11 @@
       <e><p><l>ورات</l><r>ر<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="ال">
+      <e><p><l></l><r></r></p></e>
+      <e><p><l>ال</l><r>ال<s n="det"/><s n="def"/><j/></r></p></e>
+    </pardef>
+
   </pardefs>
 
 
@@ -231,7 +236,7 @@
   <!-- Part of the input is consumed in the <i></i> section -->
   <!-- and the rest is consumed in the <l></l> part of the paradigm -->
   <section id="main" type="standard">
-    <e lm="محطة" c="station"><i>محط</i><par n="n__محط/ة"/></e>
+    <e lm="المحطة" c="station"><par n="ال"/><i>محط</i><par n="n__محط/ة"/></e>
     <e lm="ساعة" c="hour"><i>ساع</i><par n="n__محط/ة"/></e>
     <e lm="حاجة" c="thing"><i>حاج</i><par n="n__محط/ة"/></e>
     <e lm="رحلة" c="trip"><i>رحل</i><par n="n__محط/ة"/></e>
@@ -243,7 +248,7 @@
     <e lm="مقاس" c="size"><i>مقاس</i><par n="n__/كريم"/></e>
 
     <e lm="اسم" c="name"><i>اسم</i><par n="n__/اسم"/></e>
-    <e lm="اوضة" c="room"><i>اوض</i><par n="n__اوض/ة"/></e>
+    <e lm="اوضة" c="room"><par n="ال"/><i>اوض</i><par n="n__اوض/ة"/></e>
     <e lm="شنطة" c="purse"><i>شنط</i><par n="n__اوض/ة"/></e>
     <e lm="سنة" c="year"><i>سن</i><par n="n__سن/ة"/></e>
 
