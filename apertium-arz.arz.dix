@@ -2,7 +2,7 @@
 <dictionary>
 
   <!-- Define the alphabet below. -->
-  <alphabet>اأإآبتثجحخدذرزسشصضطظعغفقكلمنهويىءؤئة</alphabet>
+  <alphabet>اأإآبپتثجچحخدذرزسشصضطظعغفڤقكلمنهويىءؤئة</alphabet>
 
   <sdefs>
     <sdef n="n"           c="Noun"/>
