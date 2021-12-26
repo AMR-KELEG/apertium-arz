@@ -231,6 +231,9 @@
   <!-- Part of the input is consumed in the <i></i> section -->
   <!-- and the rest is consumed in the <l></l> part of the paradigm -->
   <section id="main" type="standard">
+    <!-- Closed classes -->
+    <e lm="اللي" c="that"><p><l>اللي</l><r>اللي<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
+
     <e lm="محطة" c="station"><i>محط</i><par n="n__محط/ة"/></e>
     <e lm="ساعة" c="hour"><i>ساع</i><par n="n__محط/ة"/></e>
     <e lm="حاجة" c="thing"><i>حاج</i><par n="n__محط/ة"/></e>
