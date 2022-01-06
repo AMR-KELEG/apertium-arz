@@ -233,6 +233,13 @@
   <section id="main" type="standard">
     <!-- Closed classes -->
     <e lm="اللي" c="that"><p><l>اللي</l><r>اللي<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e lm="انا" c="me"><p><l>انا</l><r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="احنا" c="me"><p><l>احنا</l><r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e lm="انت" c="you"><p><l>انت</l><r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="انتم" c="you"><p><l>انتم</l><r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e lm="هو" c="he"><p><l>هو</l><r>prpers<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="هى" c="she"><p><l>هى</l><r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="هم" c="he"><p><l>هم</l><r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
     <e lm="محطة" c="station"><i>محط</i><par n="n__محط/ة"/></e>
     <e lm="ساعة" c="hour"><i>ساع</i><par n="n__محط/ة"/></e>
