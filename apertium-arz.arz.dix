@@ -224,6 +224,15 @@
       <e><p><l>ورات</l><r>ر<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="عايز__/v">
+      <e><p><l>عايز</l><r>عايز<s n="vblex"/><s n="tv"/><s n="actv"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>عايز</l><r>عايز<s n="vblex"/><s n="tv"/><s n="actv"/><s n="pres"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>عايزة</l><r>عايز<s n="vblex"/><s n="tv"/><s n="actv"/><s n="pres"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>عايزة</l><r>عايز<s n="vblex"/><s n="tv"/><s n="actv"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>عايزين</l><r>عايز<s n="vblex"/><s n="tv"/><s n="actv"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>عايزين</l><r>عايز<s n="vblex"/><s n="tv"/><s n="actv"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
   </pardefs>
 
 
@@ -241,6 +250,10 @@
     <e lm="هى" c="she"><p><l>هى</l><r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     <e lm="هم" c="he"><p><l>هم</l><r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
+    <!-- Verbs -->
+    <e lm="عايز"><par n="عايز__/v"/></e>
+
+    <!-- Nouns -->
     <e lm="محطة" c="station"><i>محط</i><par n="n__محط/ة"/></e>
     <e lm="ساعة" c="hour"><i>ساع</i><par n="n__محط/ة"/></e>
     <e lm="حاجة" c="thing"><i>حاج</i><par n="n__محط/ة"/></e>
