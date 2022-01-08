@@ -2,39 +2,114 @@
 <dictionary>
   <alphabet/>
 
-  <sdefs>
-    <sdef n="n" c="Noun"/>
-  </sdefs>
-
   <pardefs>
-    <pardef n="vocals">
+
+    <pardef n="letters">
+      <!-- all letters should be put here -->
       <e>
-        <i>a</i>
+        <i>ا</i>
       </e>
       <e>
-        <i>e</i>
+        <i>أ</i>
       </e>
       <e>
-        <i>i</i>
+        <i>إ</i>
       </e>
       <e>
-        <i>o</i>
+        <i>آ</i>
       </e>
       <e>
-        <i>u</i>
+        <i>ب</i>
+      </e>
+      <e>
+        <i>ت</i>
+      </e>
+      <e>
+        <i>ث</i>
+      </e>
+      <e>
+        <i>ج</i>
+      </e>
+      <e>
+        <i>ح</i>
+      </e>
+      <e>
+        <i>خ</i>
+      </e>
+      <e>
+        <i>د</i>
+      </e>
+      <e>
+        <i>ذ</i>
+      </e>
+      <e>
+        <i>ر</i>
+      </e>
+      <e>
+        <i>ز</i>
+      </e>
+      <e>
+        <i>س</i>
+      </e>
+      <e>
+        <i>ش</i>
+      </e>
+      <e>
+        <i>ص</i>
+      </e>
+      <e>
+        <i>ط</i>
+      </e>
+      <e>
+        <i>ظ</i>
+      </e>
+      <e>
+        <i>ع</i>
+      </e>
+      <e>
+        <i>غ</i>
+      </e>
+      <e>
+        <i>ف</i>
+      </e>
+      <e>
+        <i>ق</i>
+      </e>
+      <e>
+        <i>ك</i>
+      </e>
+      <e>
+        <i>ل</i>
+      </e>
+      <e>
+        <i>م</i>
+      </e>
+      <e>
+        <i>ن</i>
+      </e>
+      <e>
+        <i>ه</i>
+      </e>
+      <e>
+        <i>و</i>
+      </e>
+      <e>
+        <i>ي</i>
       </e>
     </pardef>
+
   </pardefs>
 
   <section id="main" type="standard">
-    <!-- Define entries within <e> here. See http://wiki.apertium.org/wiki/Post-generator for more information.-->
-    <e>
-      <p>
-        <l><a/>a<b/></l>
-        <r>an<b/></r>
-      </p>
-      <par n="vocals"/>
-    </e>
-  </section>
-</dictionary>
 
+      <e>
+        <p>
+          <l><a/>ال<b/></l>
+          <r>ال</r>
+        </p>
+        <par n="letters"/>
+      </e> 
+
+  </section>
+
+</dictionary>
