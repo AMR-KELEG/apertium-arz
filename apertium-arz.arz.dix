@@ -251,15 +251,23 @@
     <e lm="ال" r="RL"><p><l><a/>ال</l><r>ال<s n="det"/><s n="def"/></r></p></e>
 
     <e lm="محطة" c="station"><par n="ال__det"/><i>محط</i><par n="n__محط/ة"/></e>
+    <e lm="عربية" c="car"><par n="ال__det"/><i>عربي</i><par n="n__محط/ة"/></e>
     <e lm="ساعة" c="hour"><par n="ال__det"/><i>ساع</i><par n="n__محط/ة"/></e>
     <e lm="حاجة" c="thing"><par n="ال__det"/><i>حاج</i><par n="n__محط/ة"/></e>
     <e lm="رحلة" c="trip"><par n="ال__det"/><i>رحل</i><par n="n__محط/ة"/></e>
     <e lm="مكالمة" c="call"><par n="ال__det"/><i>مكالم</i><par n="n__محط/ة"/></e>
     <e lm="بطاقة" c="id card"><par n="ال__det"/><i>بطاق</i><par n="n__محط/ة"/></e>
 
-    <e lm="كريم" c="cream"><par n="ال__det"/><i>كريم</i><par n="n__/كريم"/></e>
-    <e lm="اوتوبيس" c="bus"><par n="ال__det"/><i>اوتوبيس</i><par n="n__/كريم"/></e>
     <e lm="مقاس" c="size"><par n="ال__det"/><i>مقاس</i><par n="n__/كريم"/></e>
+    <e lm="كريم" c="cream"><par n="ال__det"/><i>كريم</i><par n="n__/كريم"/></e>
+    <!--  -->
+    <e lm="اوتوبيس" c="bus"><par n="ال__det"/><i>اوتوبيس</i><par n="n__/كريم"/></e>
+    <e lm="باص" c="bus"><par n="ال__det"/><i>باص</i><par n="n__/كريم"/></e>
+    <e lm="ميكروباص" c="microbus"><par n="ال__det"/><i>ميكروباص</i><par n="n__/كريم"/></e>
+    <!--  -->
+    <e lm="موبايل" c="mobile phone"><par n="ال__det"/><i>موبايل</i><par n="n__/كريم"/></e>
+    <e lm="تابليت" c="tablet"><par n="ال__det"/><i>تابليت</i><par n="n__/كريم"/></e>
+    <e lm="جراب" c="cover"><par n="ال__det"/><i>جراب</i><par n="n__/كريم"/></e>
 
     <e lm="اسم" c="name"><par n="ال__det"/><i>اسم</i><par n="n__/اسم"/></e>
     <e lm="اوضة" c="room"><par n="ال__det"/><i>اوض</i><par n="n__اوض/ة"/></e>
