@@ -224,6 +224,11 @@
       <e><p><l>ورات</l><r>ر<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="ال__det">
+      <e><p><l/><r/></p></e>
+      <e><p><l>ال</l><r>ال<s n="det"/><s n="def"/><j/></r></p></e>
+    </pardef>
+
   </pardefs>
 
 
@@ -241,38 +246,42 @@
     <e lm="هى" c="she"><p><l>هى</l><r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     <e lm="هم" c="he"><p><l>هم</l><r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
-    <e lm="محطة" c="station"><i>محط</i><par n="n__محط/ة"/></e>
-    <e lm="ساعة" c="hour"><i>ساع</i><par n="n__محط/ة"/></e>
-    <e lm="حاجة" c="thing"><i>حاج</i><par n="n__محط/ة"/></e>
-    <e lm="رحلة" c="trip"><i>رحل</i><par n="n__محط/ة"/></e>
-    <e lm="مكالمة" c="call"><i>مكالم</i><par n="n__محط/ة"/></e>
-    <e lm="بطاقة" c="id card"><i>بطاق</i><par n="n__محط/ة"/></e>
+    <!-- We need to add the <a/> to activate the post-generator module -->
+    <!-- The following rule is used only in the right to left direction -->
+    <e lm="ال" r="RL"><p><l><a/>ال</l><r>ال<s n="det"/><s n="def"/></r></p></e>
 
-    <e lm="كريم" c="cream"><i>كريم</i><par n="n__/كريم"/></e>
-    <e lm="اوتوبيس" c="bus"><i>اوتوبيس</i><par n="n__/كريم"/></e>
-    <e lm="مقاس" c="size"><i>مقاس</i><par n="n__/كريم"/></e>
+    <e lm="محطة" c="station"><par n="ال__det"/><i>محط</i><par n="n__محط/ة"/></e>
+    <e lm="ساعة" c="hour"><par n="ال__det"/><i>ساع</i><par n="n__محط/ة"/></e>
+    <e lm="حاجة" c="thing"><par n="ال__det"/><i>حاج</i><par n="n__محط/ة"/></e>
+    <e lm="رحلة" c="trip"><par n="ال__det"/><i>رحل</i><par n="n__محط/ة"/></e>
+    <e lm="مكالمة" c="call"><par n="ال__det"/><i>مكالم</i><par n="n__محط/ة"/></e>
+    <e lm="بطاقة" c="id card"><par n="ال__det"/><i>بطاق</i><par n="n__محط/ة"/></e>
 
-    <e lm="اسم" c="name"><i>اسم</i><par n="n__/اسم"/></e>
-    <e lm="اوضة" c="room"><i>اوض</i><par n="n__اوض/ة"/></e>
-    <e lm="شنطة" c="purse"><i>شنط</i><par n="n__اوض/ة"/></e>
-    <e lm="سنة" c="year"><i>سن</i><par n="n__سن/ة"/></e>
+    <e lm="كريم" c="cream"><par n="ال__det"/><i>كريم</i><par n="n__/كريم"/></e>
+    <e lm="اوتوبيس" c="bus"><par n="ال__det"/><i>اوتوبيس</i><par n="n__/كريم"/></e>
+    <e lm="مقاس" c="size"><par n="ال__det"/><i>مقاس</i><par n="n__/كريم"/></e>
 
-    <e lm="دقيقة" c="minute"><i>دق</i><par n="n__دق/يقة"/></e>
-    <e lm="خريطة" c="map"><i>خر</i><par n="n__خر/يطة"/></e>
-    <e lm="فندق" c="hotel"><i>فن</i><par n="n__فن/دق"/></e>
-    <e lm="مكتب" c="desk"><i>مك</i><par n="n__مك/تب"/></e>
-    <e lm="قطر" c="train"><i>قط</i><par n="n__قط/ر"/></e>
-    <e lm="تذكرة" c="ticket"><i>تذ</i><par n="n__تذ/كرة"/></e>
+    <e lm="اسم" c="name"><par n="ال__det"/><i>اسم</i><par n="n__/اسم"/></e>
+    <e lm="اوضة" c="room"><par n="ال__det"/><i>اوض</i><par n="n__اوض/ة"/></e>
+    <e lm="شنطة" c="purse"><par n="ال__det"/><i>شنط</i><par n="n__اوض/ة"/></e>
+    <e lm="سنة" c="year"><par n="ال__det"/><i>سن</i><par n="n__سن/ة"/></e>
 
-    <e lm="حجز" c="reservation"><i>حج</i><par n="n__حج/ز"/></e>
+    <e lm="دقيقة" c="minute"><par n="ال__det"/><i>دق</i><par n="n__دق/يقة"/></e>
+    <e lm="خريطة" c="map"><par n="ال__det"/><i>خر</i><par n="n__خر/يطة"/></e>
+    <e lm="فندق" c="hotel"><par n="ال__det"/><i>فن</i><par n="n__فن/دق"/></e>
+    <e lm="مكتب" c="desk"><par n="ال__det"/><i>مك</i><par n="n__مك/تب"/></e>
+    <e lm="قطر" c="train"><par n="ال__det"/><i>قط</i><par n="n__قط/ر"/></e>
+    <e lm="تذكرة" c="ticket"><par n="ال__det"/><i>تذ</i><par n="n__تذ/كرة"/></e>
 
-    <e lm="يوم" c="day"><par n="n__يوم"/></e>
-    <e lm="رقم" c="number"><par n="n__رقم"/></e>
-    <e lm="شكل" c="shape"><par n="n__شكل"/></e>
-    <e lm="نوع" c="type"><par n="n__نوع"/></e>
-    <e lm="مكان" c="place"><par n="n__مكان"/></e>
-    <e lm="فيلم" c="film"><par n="n__فيلم"/></e>
-    <e lm="صباح" c="morning"><par n="n__صباح"/></e>
+    <e lm="حجز" c="reservation"><par n="ال__det"/><i>حج</i><par n="n__حج/ز"/></e>
+
+    <e lm="يوم" c="day"><par n="ال__det"/><par n="n__يوم"/></e>
+    <e lm="رقم" c="number"><par n="ال__det"/><par n="n__رقم"/></e>
+    <e lm="شكل" c="shape"><par n="ال__det"/><par n="n__شكل"/></e>
+    <e lm="نوع" c="type"><par n="ال__det"/><par n="n__نوع"/></e>
+    <e lm="مكان" c="place"><par n="ال__det"/><par n="n__مكان"/></e>
+    <e lm="فيلم" c="film"><par n="ال__det"/><par n="n__فيلم"/></e>
+    <e lm="صباح" c="morning"><par n="ال__det"/><par n="n__صباح"/></e>
   </section>
 
   <!-- Inconditionals -->
