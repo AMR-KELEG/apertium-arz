@@ -229,6 +229,10 @@
       <e><p><l>ال</l><r>ال<s n="det"/><s n="def"/><j/></r></p></e>
     </pardef>
 
+    <pardef n="preposition">
+      <e><p><l></l><r><s n="pr"/></r></p></e>
+    </pardef>
+
   </pardefs>
 
 
@@ -245,6 +249,20 @@
     <e lm="هو" c="he"><p><l>هو</l><r>prpers<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="هى" c="she"><p><l>هى</l><r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     <e lm="هم" c="he"><p><l>هم</l><r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+
+    <!-- Prepositions -->
+    <e lm="من" c="from"><i>من</i><par n="preposition"/></e>
+    <e lm="في" c="in"><i>في</i><par n="preposition"/></e>
+    <e lm="مع" c="with"><i>مع</i><par n="preposition"/></e>
+    <e lm="عن" c="about"><i>عن</i><par n="preposition"/></e>
+    <e lm="ل" c="for"><i>ل</i><par n="preposition"/></e>
+    <e lm="ماعدا" c="except"><i>ماعدا</i><par n="preposition"/></e>
+    <e lm="خلال" c="through"><i>خلال</i><par n="preposition"/></e>
+    <e lm="قبل" c="before"><i>قبل</i><par n="preposition"/></e>
+    <e lm="بعد" c="after"><i>بعد</i><par n="preposition"/></e>
+    <e lm="قدام" c="in front of"><i>قدام</i><par n="preposition"/></e>
+    <e lm="وسط" c="in the middle of"><i>وسط</i><par n="preposition"/></e>
+    <e lm="ورا" c="behind"><i>ورا</i><par n="preposition"/></e>
 
     <!-- We need to add the <a/> to activate the post-generator module -->
     <!-- The following rule is used only in the right to left direction -->
