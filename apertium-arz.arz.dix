@@ -236,11 +236,23 @@
       <e><p><l>ع</l><r>على<s n="pr"/><j/></r></p></e>
     </pardef>
 
+    <pardef n="ل__preposition">
+      <e><p><l>ل</l><r>الى<s n="pr"/><j/></r></p></e>
+    </pardef>
+
+    <pardef n="ب__preposition">
+      <e><p><l>ب</l><r>ب<s n="pr"/><j/></r></p></e>
+    </pardef>
+
     <pardef n="noun_procilitics">
       <e><p><l/><r/></p></e>
       <e><par n="ال__det"/></e>
       <e><par n="ف__preposition"/><par n="ال__det"/></e>
       <e><par n="ع__preposition"/><par n="ال__det"/></e>
+      <e><par n="ب__preposition"/></e>
+      <e><par n="ب__preposition"/><par n="ال__det"/></e>
+      <e><par n="ل__preposition"/></e>
+      <e><par n="ل__preposition"/><p><l>ل</l><r>ال<s n="det"/><s n="def"/><j/></r></p></e>
     </pardef>
 
     <pardef n="preposition">
@@ -266,6 +278,7 @@
 
     <!-- Prepositions -->
     <e lm="من" c="from"><i>من</i><par n="preposition"/></e>
+    <e lm="الى" c="to"><i>الى</i><par n="preposition"/></e>
     <e lm="في" c="in"><i>في</i><par n="preposition"/></e>
     <e lm="على" c="on"><i>على</i><par n="preposition"/></e>
     <e lm="مع" c="with"><i>مع</i><par n="preposition"/></e>
@@ -297,6 +310,7 @@
     <e lm="اوتوبيس" c="bus"><par n="noun_procilitics"/><i>اوتوبيس</i><par n="n__/كريم"/></e>
     <e lm="باص" c="bus"><par n="noun_procilitics"/><i>باص</i><par n="n__/كريم"/></e>
     <e lm="ميكروباص" c="microbus"><par n="noun_procilitics"/><i>ميكروباص</i><par n="n__/كريم"/></e>
+    <e lm="تاكسي" c="microbus"><par n="noun_procilitics"/><i>تاكسي</i><par n="n__/كريم"/></e>
     <!--  -->
     <e lm="موبايل" c="mobile phone"><par n="noun_procilitics"/><i>موبايل</i><par n="n__/كريم"/></e>
     <e lm="تابليت" c="tablet"><par n="noun_procilitics"/><i>تابليت</i><par n="n__/كريم"/></e>
