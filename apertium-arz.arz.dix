@@ -121,6 +121,12 @@
       <e><p><l>ات</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="n__هدي/ة">
+      <e><p><l>ة</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>تين</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>ايا</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="n__اوض/ة">
       <e><p><l>ة</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
       <e><p><l>تين</l><r>ة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p></e>
@@ -224,6 +230,26 @@
       <e><p><l>ورات</l><r>ر<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="n__كر/سي">
+      <e><p><l>سي</l><r>سي<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>سيين</l><r>سي<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>اسي</l><r>سي<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="n__دك/تور">
+      <e><p><l>تور</l><r>تور<s n="n"/><s n="m"/><s n="aa"/><s n="sg"/></r></p></e>
+      <e><p><l>تورة</l><r>تور<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/></r></p></e>
+      <e><p><l>تورين</l><r>تور<s n="n"/><s n="m"/><s n="aa"/><s n="du"/></r></p></e>
+      <e><p><l>تورتين</l><r>تور<s n="n"/><s n="f"/><s n="aa"/><s n="du"/></r></p></e>
+      <e><p><l>اترة</l><r>تور<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="n__بي/ت">
+      <e><p><l>ت</l><r>ت<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>تين</l><r>ت<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p></e>
+      <e><p><l>وت</l><r>ت<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="ال__det">
       <e><p><l>ال</l><r>ال<s n="det"/><s n="def"/><j/></r></p></e>
     </pardef>
@@ -303,14 +329,22 @@
     <e lm="رحلة" c="trip"><par n="noun_procilitics"/><i>رحل</i><par n="n__محط/ة"/></e>
     <e lm="مكالمة" c="call"><par n="noun_procilitics"/><i>مكالم</i><par n="n__محط/ة"/></e>
     <e lm="بطاقة" c="id card"><par n="noun_procilitics"/><i>بطاق</i><par n="n__محط/ة"/></e>
+    <e lm="طربيزة" c="table"><par n="noun_procilitics"/><i>طربيز</i><par n="n__محط/ة"/></e>
+    <e lm="شركة" c="company"><par n="noun_procilitics"/><i>شرك</i><par n="n__محط/ة"/></e>
+
+    <e lm="هدية" c="gift"><par n="noun_procilitics"/><i>هدي</i><par n="n__هدي/ة"/></e>
 
     <e lm="مقاس" c="size"><par n="noun_procilitics"/><i>مقاس</i><par n="n__/كريم"/></e>
     <e lm="كريم" c="cream"><par n="noun_procilitics"/><i>كريم</i><par n="n__/كريم"/></e>
+    <e lm="دولار" c="dollar"><par n="noun_procilitics"/><i>دولار</i><par n="n__/كريم"/></e>
+    <e lm="جنيه" c="pound"><par n="noun_procilitics"/><i>جنيه</i><par n="n__/كريم"/></e>
+    <e lm="ريال" c="riyal"><par n="noun_procilitics"/><i>ريال</i><par n="n__/كريم"/></e>
+    <e lm="فلوس" c="money"><par n="noun_procilitics"/><i>فلوس</i><p><l/><r><s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p></e>
     <!--  -->
     <e lm="اوتوبيس" c="bus"><par n="noun_procilitics"/><i>اوتوبيس</i><par n="n__/كريم"/></e>
     <e lm="باص" c="bus"><par n="noun_procilitics"/><i>باص</i><par n="n__/كريم"/></e>
     <e lm="ميكروباص" c="microbus"><par n="noun_procilitics"/><i>ميكروباص</i><par n="n__/كريم"/></e>
-    <e lm="تاكسي" c="microbus"><par n="noun_procilitics"/><i>تاكسي</i><par n="n__/كريم"/></e>
+    <e lm="تاكسي" c="taxi"><par n="noun_procilitics"/><i>تاكسي</i><par n="n__/كريم"/></e>
     <!--  -->
     <e lm="موبايل" c="mobile phone"><par n="noun_procilitics"/><i>موبايل</i><par n="n__/كريم"/></e>
     <e lm="تابليت" c="tablet"><par n="noun_procilitics"/><i>تابليت</i><par n="n__/كريم"/></e>
@@ -329,6 +363,11 @@
     <e lm="تذكرة" c="ticket"><par n="noun_procilitics"/><i>تذ</i><par n="n__تذ/كرة"/></e>
 
     <e lm="حجز" c="reservation"><par n="noun_procilitics"/><i>حج</i><par n="n__حج/ز"/></e>
+
+    <e lm="كرسي" c="chair"><par n="noun_procilitics"/><i>كر</i><par n="n__كر/سي"/></e>
+
+    <e lm="دكتور" c="doctor"><par n="noun_procilitics"/><i>دك</i><par n="n__دك/تور"/></e>
+    <e lm="برد" c="cold"><par n="noun_procilitics"/><i>برد</i><p><l/><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
 
     <e lm="يوم" c="day"><par n="noun_procilitics"/><par n="n__يوم"/></e>
     <e lm="رقم" c="number"><par n="noun_procilitics"/><par n="n__رقم"/></e>
