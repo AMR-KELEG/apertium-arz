@@ -225,8 +225,22 @@
     </pardef>
 
     <pardef n="ال__det">
-      <e><p><l/><r/></p></e>
       <e><p><l>ال</l><r>ال<s n="det"/><s n="def"/><j/></r></p></e>
+    </pardef>
+
+    <pardef n="ف__preposition">
+      <e><p><l>ف</l><r>في<s n="pr"/><j/></r></p></e>
+    </pardef>
+
+    <pardef n="ع__preposition">
+      <e><p><l>ع</l><r>على<s n="pr"/><j/></r></p></e>
+    </pardef>
+
+    <pardef n="noun_procilitics">
+      <e><p><l/><r/></p></e>
+      <e><par n="ال__det"/></e>
+      <e><par n="ف__preposition"/><par n="ال__det"/></e>
+      <e><par n="ع__preposition"/><par n="ال__det"/></e>
     </pardef>
 
     <pardef n="preposition">
@@ -253,6 +267,7 @@
     <!-- Prepositions -->
     <e lm="من" c="from"><i>من</i><par n="preposition"/></e>
     <e lm="في" c="in"><i>في</i><par n="preposition"/></e>
+    <e lm="على" c="on"><i>على</i><par n="preposition"/></e>
     <e lm="مع" c="with"><i>مع</i><par n="preposition"/></e>
     <e lm="عن" c="about"><i>عن</i><par n="preposition"/></e>
     <e lm="ل" c="for"><i>ل</i><par n="preposition"/></e>
@@ -268,46 +283,46 @@
     <!-- The following rule is used only in the right to left direction -->
     <e lm="ال" r="RL"><p><l><a/>ال</l><r>ال<s n="det"/><s n="def"/></r></p></e>
 
-    <e lm="محطة" c="station"><par n="ال__det"/><i>محط</i><par n="n__محط/ة"/></e>
-    <e lm="عربية" c="car"><par n="ال__det"/><i>عربي</i><par n="n__محط/ة"/></e>
-    <e lm="ساعة" c="hour"><par n="ال__det"/><i>ساع</i><par n="n__محط/ة"/></e>
-    <e lm="حاجة" c="thing"><par n="ال__det"/><i>حاج</i><par n="n__محط/ة"/></e>
-    <e lm="رحلة" c="trip"><par n="ال__det"/><i>رحل</i><par n="n__محط/ة"/></e>
-    <e lm="مكالمة" c="call"><par n="ال__det"/><i>مكالم</i><par n="n__محط/ة"/></e>
-    <e lm="بطاقة" c="id card"><par n="ال__det"/><i>بطاق</i><par n="n__محط/ة"/></e>
+    <e lm="محطة" c="station"><par n="noun_procilitics"/><i>محط</i><par n="n__محط/ة"/></e>
+    <e lm="عربية" c="car"><par n="noun_procilitics"/><i>عربي</i><par n="n__محط/ة"/></e>
+    <e lm="ساعة" c="hour"><par n="noun_procilitics"/><i>ساع</i><par n="n__محط/ة"/></e>
+    <e lm="حاجة" c="thing"><par n="noun_procilitics"/><i>حاج</i><par n="n__محط/ة"/></e>
+    <e lm="رحلة" c="trip"><par n="noun_procilitics"/><i>رحل</i><par n="n__محط/ة"/></e>
+    <e lm="مكالمة" c="call"><par n="noun_procilitics"/><i>مكالم</i><par n="n__محط/ة"/></e>
+    <e lm="بطاقة" c="id card"><par n="noun_procilitics"/><i>بطاق</i><par n="n__محط/ة"/></e>
 
-    <e lm="مقاس" c="size"><par n="ال__det"/><i>مقاس</i><par n="n__/كريم"/></e>
-    <e lm="كريم" c="cream"><par n="ال__det"/><i>كريم</i><par n="n__/كريم"/></e>
+    <e lm="مقاس" c="size"><par n="noun_procilitics"/><i>مقاس</i><par n="n__/كريم"/></e>
+    <e lm="كريم" c="cream"><par n="noun_procilitics"/><i>كريم</i><par n="n__/كريم"/></e>
     <!--  -->
-    <e lm="اوتوبيس" c="bus"><par n="ال__det"/><i>اوتوبيس</i><par n="n__/كريم"/></e>
-    <e lm="باص" c="bus"><par n="ال__det"/><i>باص</i><par n="n__/كريم"/></e>
-    <e lm="ميكروباص" c="microbus"><par n="ال__det"/><i>ميكروباص</i><par n="n__/كريم"/></e>
+    <e lm="اوتوبيس" c="bus"><par n="noun_procilitics"/><i>اوتوبيس</i><par n="n__/كريم"/></e>
+    <e lm="باص" c="bus"><par n="noun_procilitics"/><i>باص</i><par n="n__/كريم"/></e>
+    <e lm="ميكروباص" c="microbus"><par n="noun_procilitics"/><i>ميكروباص</i><par n="n__/كريم"/></e>
     <!--  -->
-    <e lm="موبايل" c="mobile phone"><par n="ال__det"/><i>موبايل</i><par n="n__/كريم"/></e>
-    <e lm="تابليت" c="tablet"><par n="ال__det"/><i>تابليت</i><par n="n__/كريم"/></e>
-    <e lm="جراب" c="cover"><par n="ال__det"/><i>جراب</i><par n="n__/كريم"/></e>
+    <e lm="موبايل" c="mobile phone"><par n="noun_procilitics"/><i>موبايل</i><par n="n__/كريم"/></e>
+    <e lm="تابليت" c="tablet"><par n="noun_procilitics"/><i>تابليت</i><par n="n__/كريم"/></e>
+    <e lm="جراب" c="cover"><par n="noun_procilitics"/><i>جراب</i><par n="n__/كريم"/></e>
 
-    <e lm="اسم" c="name"><par n="ال__det"/><i>اسم</i><par n="n__/اسم"/></e>
-    <e lm="اوضة" c="room"><par n="ال__det"/><i>اوض</i><par n="n__اوض/ة"/></e>
-    <e lm="شنطة" c="purse"><par n="ال__det"/><i>شنط</i><par n="n__اوض/ة"/></e>
-    <e lm="سنة" c="year"><par n="ال__det"/><i>سن</i><par n="n__سن/ة"/></e>
+    <e lm="اسم" c="name"><par n="noun_procilitics"/><i>اسم</i><par n="n__/اسم"/></e>
+    <e lm="اوضة" c="room"><par n="noun_procilitics"/><i>اوض</i><par n="n__اوض/ة"/></e>
+    <e lm="شنطة" c="purse"><par n="noun_procilitics"/><i>شنط</i><par n="n__اوض/ة"/></e>
+    <e lm="سنة" c="year"><par n="noun_procilitics"/><i>سن</i><par n="n__سن/ة"/></e>
 
-    <e lm="دقيقة" c="minute"><par n="ال__det"/><i>دق</i><par n="n__دق/يقة"/></e>
-    <e lm="خريطة" c="map"><par n="ال__det"/><i>خر</i><par n="n__خر/يطة"/></e>
-    <e lm="فندق" c="hotel"><par n="ال__det"/><i>فن</i><par n="n__فن/دق"/></e>
-    <e lm="مكتب" c="desk"><par n="ال__det"/><i>مك</i><par n="n__مك/تب"/></e>
-    <e lm="قطر" c="train"><par n="ال__det"/><i>قط</i><par n="n__قط/ر"/></e>
-    <e lm="تذكرة" c="ticket"><par n="ال__det"/><i>تذ</i><par n="n__تذ/كرة"/></e>
+    <e lm="دقيقة" c="minute"><par n="noun_procilitics"/><i>دق</i><par n="n__دق/يقة"/></e>
+    <e lm="خريطة" c="map"><par n="noun_procilitics"/><i>خر</i><par n="n__خر/يطة"/></e>
+    <e lm="فندق" c="hotel"><par n="noun_procilitics"/><i>فن</i><par n="n__فن/دق"/></e>
+    <e lm="مكتب" c="desk"><par n="noun_procilitics"/><i>مك</i><par n="n__مك/تب"/></e>
+    <e lm="قطر" c="train"><par n="noun_procilitics"/><i>قط</i><par n="n__قط/ر"/></e>
+    <e lm="تذكرة" c="ticket"><par n="noun_procilitics"/><i>تذ</i><par n="n__تذ/كرة"/></e>
 
-    <e lm="حجز" c="reservation"><par n="ال__det"/><i>حج</i><par n="n__حج/ز"/></e>
+    <e lm="حجز" c="reservation"><par n="noun_procilitics"/><i>حج</i><par n="n__حج/ز"/></e>
 
-    <e lm="يوم" c="day"><par n="ال__det"/><par n="n__يوم"/></e>
-    <e lm="رقم" c="number"><par n="ال__det"/><par n="n__رقم"/></e>
-    <e lm="شكل" c="shape"><par n="ال__det"/><par n="n__شكل"/></e>
-    <e lm="نوع" c="type"><par n="ال__det"/><par n="n__نوع"/></e>
-    <e lm="مكان" c="place"><par n="ال__det"/><par n="n__مكان"/></e>
-    <e lm="فيلم" c="film"><par n="ال__det"/><par n="n__فيلم"/></e>
-    <e lm="صباح" c="morning"><par n="ال__det"/><par n="n__صباح"/></e>
+    <e lm="يوم" c="day"><par n="noun_procilitics"/><par n="n__يوم"/></e>
+    <e lm="رقم" c="number"><par n="noun_procilitics"/><par n="n__رقم"/></e>
+    <e lm="شكل" c="shape"><par n="noun_procilitics"/><par n="n__شكل"/></e>
+    <e lm="نوع" c="type"><par n="noun_procilitics"/><par n="n__نوع"/></e>
+    <e lm="مكان" c="place"><par n="noun_procilitics"/><par n="n__مكان"/></e>
+    <e lm="فيلم" c="film"><par n="noun_procilitics"/><par n="n__فيلم"/></e>
+    <e lm="صباح" c="morning"><par n="noun_procilitics"/><par n="n__صباح"/></e>
   </section>
 
   <!-- Inconditionals -->
