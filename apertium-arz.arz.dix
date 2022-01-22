@@ -302,6 +302,14 @@
     <e lm="هى" c="she"><p><l>هى</l><r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     <e lm="هم" c="he"><p><l>هم</l><r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
+    <e lm="ده" c="this"><p><l>ده</l><r>ده<s n="prn"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="ديه" c="this"><p><l>ديه</l><r>ده<s n="prn"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="دول" c="these"><p><l>دول</l><r>ده<s n="prn"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
+
+    <e lm="ده" c="this"><p><l>ده</l><r>ده<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="ديه" c="this"><p><l>ديه</l><r>ده<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="دول" c="these"><p><l>دول</l><r>ده<s n="det"/><s n="dem"/><s n="mf"/><s n="pl"/></r></p></e>
+
     <!-- Prepositions -->
     <e lm="من" c="from"><i>من</i><par n="preposition"/></e>
     <e lm="الى" c="to"><i>الى</i><par n="preposition"/></e>
