@@ -111,6 +111,10 @@
       <e><re>[٠-٩]+([.][٠-٩]+)? ?%</re><p><l></l><r><s n="num"/></r></p></e>
     </pardef>
 
+    <pardef n="و__cnjcoo">
+      <e><p><l/><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
     <pardef n="n__صباح">
       <e><p><l>صباح</l><r>صباح<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p></e>
     </pardef>
@@ -384,6 +388,11 @@
     <e lm="مكان" c="place"><par n="noun_procilitics"/><par n="n__مكان"/></e>
     <e lm="فيلم" c="film"><par n="noun_procilitics"/><par n="n__فيلم"/></e>
     <e lm="صباح" c="morning"><par n="noun_procilitics"/><par n="n__صباح"/></e>
+  </section>
+
+  <section id="stuff" type="postblank">
+    <e lm="و" r="LR"><p><l>و</l><r>و</r></p><par n="و__cnjcoo"/></e>
+    <e lm="ف" r="LR"><p><l>ف</l><r>ف</r></p><par n="و__cnjcoo"/></e>
   </section>
 
   <!-- Inconditionals -->
